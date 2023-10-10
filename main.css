@@ -11,10 +11,7 @@
 }
 
 /* Делаем 3D плеер на весь браузер */
-model-viewer {
-    height: 100vh;
-    width: 100%;
-}
+
 
 p {
     font-size: 44px;
@@ -22,5 +19,14 @@ p {
 
 .cint {
     display: flex;
-    background-color: coral;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    column-gap: 40px;
+}
+
+model-viewer {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(63, 61, 60);
 }
